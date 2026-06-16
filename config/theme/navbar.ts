@@ -13,6 +13,11 @@ const build: NavbarItem = {
       activeBasePath: 'docs/build',
     },
     {
+      to: '/docs/build/building-with-ai',
+      label: 'Building with AI',
+      activeBasePath: 'docs/build/building-with-ai',
+    },
+    {
       type: 'html',
       value: '<hr><a href="/docs/build/smart-contracts" class="subtitle"><small>Build Smart Contracts</small>',
       className: 'subtitle',
@@ -80,9 +85,29 @@ const build: NavbarItem = {
       activeBasePath: 'docs/build/apps/dapp-frontend',
     },
     {
+      to: '/docs/build/apps/privacy',
+      label: 'Privacy on Stellar',
+      activeBasePath: 'docs/build/apps/privacy',
+    },
+    {
       to: '/docs/build/apps/zk',
       label: 'ZK Proofs on Stellar',
       activeBasePath: 'docs/build/apps/zk',
+    },
+    {
+      type: 'html',
+      value: '<hr><a href="/docs/build/agentic-payments" class="subtitle"><small>Agentic Payments</small>',
+      className: 'subtitle',
+    },
+    {
+      to: '/docs/build/agentic-payments/x402',
+      label: 'x402 on Stellar',
+      activeBasePath: 'docs/build/agentic-payments/x402',
+    },
+    {
+      to: '/docs/build/agentic-payments/mpp',
+      label: 'MPP on Stellar',
+      activeBasePath: 'docs/build/agentic-payments/mpp',
     },
     {
       type: 'html',
